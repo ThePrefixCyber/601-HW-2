@@ -1,0 +1,65 @@
+[debug] [2017-10-10T11:23:03.464Z] ----------------------------------------------------------------------
+[debug] [2017-10-10T11:23:03.466Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-10T11:23:03.467Z] CLI Version:   3.13.1
+[debug] [2017-10-10T11:23:03.467Z] Platform:      darwin
+[debug] [2017-10-10T11:23:03.467Z] Node Version:  v6.11.4
+[debug] [2017-10-10T11:23:03.468Z] Time:          Tue Oct 10 2017 07:23:03 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:03.468Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-10T11:23:03.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-10T11:23:03.482Z] > authorizing via signed-in user
+[debug] [2017-10-10T11:23:03.484Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-10T11:23:03.484Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/4k4VjabHI7Oaro6BmCfDyWcXVR_qHrKn79OVH2SMTIA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 10 2017 07:23:03 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:03.791Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-10T11:23:03.809Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-dffb6  
+ Tue Oct 10 2017 07:23:03 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:04.310Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-10T11:23:04.312Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-dffb6/tokens  
+ Tue Oct 10 2017 07:23:04 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:04.939Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Jack/Desktop/Website/601Chat'...
+[info] 
+[debug] [2017-10-10T11:23:04.945Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chat-dffb6  
+ Tue Oct 10 2017 07:23:04 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:05.339Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-10T11:23:05.340Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/564063393043/clients/_:getWebAppConfig  
+ Tue Oct 10 2017 07:23:05 GMT-0400 (EDT)
+[debug] [2017-10-10T11:23:05.861Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-10T11:30:43.408Z] ----------------------------------------------------------------------
+[debug] [2017-10-10T11:30:43.411Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-10T11:30:43.412Z] CLI Version:   3.13.1
+[debug] [2017-10-10T11:30:43.412Z] Platform:      darwin
+[debug] [2017-10-10T11:30:43.412Z] Node Version:  v6.11.4
+[debug] [2017-10-10T11:30:43.414Z] Time:          Tue Oct 10 2017 07:30:43 GMT-0400 (EDT)
+[debug] [2017-10-10T11:30:43.414Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-10T11:30:43.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-10T11:30:43.436Z] > authorizing via signed-in user
+[debug] [2017-10-10T11:30:43.439Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-dffb6  
+ Tue Oct 10 2017 07:30:43 GMT-0400 (EDT)
+[debug] [2017-10-10T11:30:44.215Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-10T11:30:44.217Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-dffb6/tokens  
+ Tue Oct 10 2017 07:30:44 GMT-0400 (EDT)
+[debug] [2017-10-10T11:30:44.706Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Jack/Desktop/Website'...
+[info] 
+[debug] [2017-10-10T11:30:44.714Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chat-dffb6  
+ Tue Oct 10 2017 07:30:44 GMT-0400 (EDT)
+[debug] [2017-10-10T11:30:45.183Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-10T11:30:45.184Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/564063393043/clients/_:getWebAppConfig  
+ Tue Oct 10 2017 07:30:45 GMT-0400 (EDT)
+[debug] [2017-10-10T11:30:45.974Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
