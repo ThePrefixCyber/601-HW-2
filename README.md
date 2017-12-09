@@ -1,7 +1,5 @@
 # 601-HW-2
-
-# John Curci
-# jcurci92@bu.edu
+John Curci -- jcurci92@bu.edu
 
 
 # Website (Parts 1 and 2)
